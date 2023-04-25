@@ -1,0 +1,20 @@
+
+
+<div class="d-flex justify-content-center">
+    <form class="border border-4 p-4 my-5">
+        <h1 class="header">ETL Tool</h1>
+        <div>
+        <input (change)="validation($event)" type="file" class="mt-3" accept=".xlsx, .xls, .csv">
+        <div *ngIf="submitDisabled">
+            <small class="text-danger " id="toaster">No file selected for upload</small>
+        </div>
+        <div *ngIf="successDisabled">
+            <small class="text-success " id="toaster">File successfully uploaded!</small>
+        </div>
+        <div *ngIf="failDisabled">
+            <small class="text-danger " id="toaster">File uploaded fail!</small>
+        </div>
+        </div>
+        <input type="button"(click)=" uploadExcel()" class="btn btn-primary mt-3" value="Submit">
+    </form>
+</div>

@@ -25,7 +25,11 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              
+                "node_modules/bootstrap/dist/css/bootstrap.min.css"
+              
+           
             ],
             "scripts": []
           },
@@ -89,10 +93,17 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "../node_modules/jspdf/dist/jspdf.min.js",
+      "../node_modules/jspdf-autotable/dist/jspdf.plugin.autotable.js"
+            ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "27b4063c-dd66-410f-94ee-ec0203bffbc3"
+   
   }
 }

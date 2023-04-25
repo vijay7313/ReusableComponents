@@ -1,0 +1,25 @@
+.headerAng {
+  font-weight: bold;
+  font-size: 150%;
+  margin-top: -10px;
+}
+.table > thead > tr > th{
+  background-color: #82827c;
+  }
+.fa_custom {
+  color: #0099cc;
+  font-size: 20px; 
+  margin-right: 10px;
+  cursor: pointer;
+}
+.excelIcon{
+    float: right;
+    margin-top: -20px;
+}
+.bi-file-pdf{
+  font-size: 20px; 
+  color: rgb(255, 0, 0); 
+  opacity: 1;
+  margin-right: 28px;
+  cursor: pointer;
+}
